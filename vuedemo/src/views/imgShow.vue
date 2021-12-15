@@ -1,6 +1,6 @@
 <template>
   <div class="imgShow">
     <img src="../assets/logo.png" alt="" />
-    ooo
+    测试合并xxttt
   </div>
 </template>

@@ -4,9 +4,13 @@
         <img src="../../assets/icon/selectUi.png" alt="">
         <div class="selectBtn">
             <div class="selectWripper">
-                <span class="selectWripper-inputLeft">l</span>
+                <span class="selectWripper-inputLeft">
+                  <img class="selectWripper-imgLeft" src="../../assets/icon/sousuo.png" alt="">
+                </span>
                 <input type="text" name="" v-model="inputSelect" id="">
-                <span class="selectWripper-inputRight">r</span>
+                <span class="selectWripper-inputRight">
+                  <img class="selectWripper-imgRight"  src="../../assets/icon/mkf.png" alt="">
+                </span>
             </div>
         </div>
       </div>
@@ -42,8 +46,12 @@ export default {
     align-items: center;
     flex: 7;
 }
-.selectBox-left img {
+.selectBox-left>img {
     width: 300px;
+    padding-top: 20px;
+}
+.selectBtn {
+  padding-top: 30px;
 }
 .selectBox-right {
     flex: 3;
@@ -68,12 +76,24 @@ export default {
     flex: 8;
 }
 .selectWripper-inputLeft {
-    padding: 0 10px;
+    padding-left: 30px;
     flex: 1;
+    display: flex;
+    align-items: center;
 }
 .selectWripper-inputRight {
-    padding: 0 10px;
+    padding-left: 30px;
     flex: 1;
+    display: flex;
+    align-items: center;
+}
+.selectWripper-imgLeft {
+  width:20px !important;
+  height: 20px;
+}
+.selectWripper-imgRight {
+  width:20px !important;
+  height: 20px;
 }
 
 </style>

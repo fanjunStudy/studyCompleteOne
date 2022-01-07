@@ -6,7 +6,9 @@
     <div class="selectBox">
       <appSelect />
     </div>
-    <main class="mainBox"></main>
+    <main class="mainBox">
+      <appMain />
+    </main>
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
@@ -20,12 +22,14 @@
 // @ is an alias to /src
 import appHeader from '@/components/appHeader/appHeader.vue'
 import appSelect from '@/components/appSelect/appSelect.vue'
+import appMain from '@/components/appMain/appMain.vue'
 
 export default {
   name: 'Home',
   components: {
     appHeader,
-    appSelect
+    appSelect,
+    appMain
   }
 }
 </script>

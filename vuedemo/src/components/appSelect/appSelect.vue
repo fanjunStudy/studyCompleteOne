@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="selectBox-right">
-          <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fgss0.baidu.com%2F7Po3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2F2e2eb9389b504fc2920bbd0de3dde71190ef6d65.jpg&refer=http%3A%2F%2Fgss0.baidu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1642237571&t=46466614f7af24902d5cc4b6530f0e9d" alt="">
+          <img src="https://picsum.photos/200/300" alt="">
       </div>
   </div>
 </template>
@@ -58,6 +58,7 @@ export default {
 }
 .selectBox-right img {
     width: 300px;
+    height: 300px;
 }
 .selectWripper {
     width: 600px;
